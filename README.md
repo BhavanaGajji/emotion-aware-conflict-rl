@@ -1,4 +1,6 @@
-# Emotion-Aware Conflict Resolution using RL
+# 💔 Emotion-Aware Conflict Resolution using Reinforcement Learning
+
+🚀 A unique RL environment that models human emotional decision-making in relationships.
 
 ## Problem
 Human conflicts often escalate due to poor emotional decisions and timing.
