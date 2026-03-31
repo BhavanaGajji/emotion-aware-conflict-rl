@@ -35,10 +35,10 @@ The agent chooses actions like apologizing, explaining, ignoring, or giving spac
 - Time Gap: 0–9 (represents delay in response)
 
 ### Action Space
-0 → Ignore  
-1 → Apologize  
-2 → Explain  
-3 → Give Space  
+- 0 → Ignore  
+- 1 → Apologize  
+- 2 → Explain  
+- 3 → Give Space  
 
 ### Reward Design
 - Emotion-sensitive rewards (based on mood)
