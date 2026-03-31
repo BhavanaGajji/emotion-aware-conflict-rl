@@ -26,3 +26,7 @@ This project simulates a relationship environment where an AI agent learns optim
 
 ## Result
 The agent improves over time, shown using reward graphs.
+
+## 📈 Learning Graph
+
+![Learning Graph](graph.png)
