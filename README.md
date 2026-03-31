@@ -89,8 +89,8 @@ couple-conflict-rl/
 │── plot.py
 │── graph.png
 │── README.md
+
 ---
 
 ## 🎤 Author Note
-This project focuses on applying AI to human emotional intelligence rather than traditional technical problems, making it more relatable and impactful.ph.png
-│── README.md
+This project focuses on applying AI to human emotional intelligence rather than traditional technical problems, making it more relatable and impactful.
