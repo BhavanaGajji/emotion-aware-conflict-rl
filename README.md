@@ -19,6 +19,8 @@ This project simulates relationship conflict scenarios where a Reinforcement Lea
 
 The agent chooses actions like apologizing, explaining, ignoring, or giving space.
 
+The environment is modeled using a discrete state-action space and trained using a Q-learning approach.
+
 ---
 
 ## ⚙️ Features
@@ -87,6 +89,15 @@ This demonstrates how the model learns emotionally intelligent responses.
 The RL agent successfully learns to make emotionally appropriate decisions over time. 
 
 The improvement in reward trends demonstrates that the model adapts its behavior based on emotional context, severity, and timing, leading to more stable and intelligent responses.
+
+---
+
+## 🎯 Sample Output
+
+State: Angry + High Severity + Long Delay  
+Predicted Action: Give Space  
+
+This demonstrates the agent's ability to learn emotionally intelligent behavior.
 
 ---
 
