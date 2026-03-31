@@ -87,7 +87,8 @@ couple-conflict-rl/
 │── env.py
 │── train.py
 │── plot.py
-│── gra
+│── graph.png
+│── README.md
 ---
 
 ## 🎤 Author Note
