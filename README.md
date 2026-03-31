@@ -100,6 +100,11 @@ Predicted Action: Give Space
 This demonstrates the agent's ability to learn emotionally intelligent behavior.
 
 ---
+## 🧠 Key Insight
+
+This project highlights how reinforcement learning can be extended beyond traditional environments to model human-centric decision making, where emotions and timing play a crucial role.
+
+---
 
 ## 🔮 Future Scope
 - Multi-step conversation modeling  
