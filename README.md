@@ -23,8 +23,28 @@ The agent chooses actions like apologizing, explaining, ignoring, or giving spac
 - Emotion-aware decision making  
 - Severity-based reward system  
 - Timing-based optimization  
-- Simple RL-based learning model  
+- Simple RL-based learning model
 
+---
+
+## 🧠 Environment Design
+
+### State Space
+- Mood: Angry (0), Sad (1), Normal (2)
+- Severity: Low (0), Medium (1), High (2)
+- Time Gap: 0–9 (represents delay in response)
+
+### Action Space
+0 → Ignore  
+1 → Apologize  
+2 → Explain  
+3 → Give Space  
+
+### Reward Design
+- Emotion-sensitive rewards (based on mood)
+- Penalties for escalation
+- Bonus for correct timing
+- Severity-based negative rewards
 ---
 
 ## 🎯 Actions
