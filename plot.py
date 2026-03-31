@@ -12,4 +12,8 @@ plt.plot(avg_rewards)
 plt.xlabel("Episodes")
 plt.ylabel("Average Reward")
 plt.title("Learning Progress (Smoothed)")
+
+# Save graph automatically
+plt.savefig("graph.png")
+
 plt.show()
