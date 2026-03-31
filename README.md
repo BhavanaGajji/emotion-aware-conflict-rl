@@ -82,7 +82,9 @@ This demonstrates how the model learns emotionally intelligent responses.
 ---
 
 ## 🚀 Result
-The agent improves its decision-making over time. This is shown using a reward progression graph, proving that the model is learning optimal behavior.
+The RL agent successfully learns to make emotionally appropriate decisions over time. 
+
+The improvement in reward trends demonstrates that the model adapts its behavior based on emotional context, severity, and timing, leading to more stable and intelligent responses.
 
 ---
 
