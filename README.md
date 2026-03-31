@@ -1,7 +1,9 @@
 # 💔 Emotion-Aware Conflict Resolution using Reinforcement Learning
 
 💡 Inspired by real-life human emotional decision-making rather than traditional game-based RL environments.
+
 🚀 Unlike traditional RL projects focused on games, this project models human emotional intelligence and decision-making in real-life conflict scenarios.
+
 ---
 
 ## 📌 Problem
