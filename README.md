@@ -1,5 +1,4 @@
-# emotion-aware-conflict-rl
-Emotion-Aware Conflict Resolution using Reinforcement Learning
+# Emotion-Aware Conflict Resolution using RL
 
 ## Problem
 Human conflicts often escalate due to poor emotional decisions and timing.
