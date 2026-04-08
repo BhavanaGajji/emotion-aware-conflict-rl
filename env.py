@@ -1,20 +1,26 @@
-import gym
-from gym import spaces
+import gymnasium as gym
+from gymnasium import spaces
 import random
 
 class CoupleConflictEnv(gym.Env):
     def __init__(self):
-        super(CoupleConflictEnv, self).__init__()
+        super().__init__()
 
         self.action_space = spaces.Discrete(4)
         self.observation_space = spaces.MultiDiscrete([3, 3, 10])
+        self.state = None
 
-    def reset(self):
+    def reset(self, seed=None, options=None):
+        super().reset(seed=seed)
         self.state = [
-            random.randint(0, 2),  # mood
-            random.randint(0, 2),  # severity
-            random.randint(0, 9)   # time_gap
+            random.randint(0, 2),
+            random.randint(0, 2),
+            random.randint(0, 9)
         ]
+        return self.state, {}
+
+    def set_state(self, state):
+        self.state = state
         return self.state
 
     def step(self, action):
@@ -41,5 +47,7 @@ class CoupleConflictEnv(gym.Env):
         if time_gap > 5 and action in [1, 2]:
             reward += 3
 
-        done = True
-        return self.state, reward, done, {}
+        terminated = True
+        truncated = False
+
+        return self.state, reward, terminated, truncated, {}

@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 from train import rewards
 
-# Smooth the graph
 window = 50
 avg_rewards = []
 
@@ -11,9 +10,5 @@ for i in range(len(rewards)):
 plt.plot(avg_rewards)
 plt.xlabel("Episodes")
 plt.ylabel("Average Reward")
-plt.title("Learning Progress (Smoothed)")
-
-# Save graph automatically
-plt.savefig("graph.png")
-
+plt.title("Learning Progress")
 plt.show()

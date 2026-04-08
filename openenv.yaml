@@ -1,0 +1,14 @@
+name: emotion-conflict-env
+description: Emotion-aware RL environment
+
+entrypoint: env.py
+
+tasks:
+  - name: easy
+    description: Sad low severity
+  - name: medium
+    description: Angry medium severity
+  - name: hard
+    description: Angry high severity
+
+grader: grader.py
